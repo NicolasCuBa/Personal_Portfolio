@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Stick+No+Bills:wght@800&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    height: 70px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.75);
+    z-index: 2;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.logo {
+    display: flex;
+    padding-left: 2.7rem;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2.7rem;
+    cursor: pointer;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: black;
+    transition: 1.3s ease;
+}
+
+.logo-link:hover {
+    color: #0091AD;
+    transition: .3s ease;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    padding-right: 2.7rem ;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 2rem;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #0091AD;
+    transition: .3s ease;
+}
+

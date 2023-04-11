@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Saira+Condensed:wght@700;800&family=Sarabun:ital,wght@0,300;0,800;1,300&display=swap');
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    cursor: default;
+}
+.title {
+    padding-top: 19rem;
+    font-family: 'Patua One', cursive;
+    font-size: 5rem;
+    font-weight: 400;
+    color: black;
+}
+
+.subtitle-container {
+    font-family: 'Sarabun', sans-serif;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: black;
+}
+
+.button-container {
+    padding-top: 10rem;
+}
+
+.projects-button {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    border: 3px solid;
+    border-color: #0091AD;
+    color: black;
+    font-size: 1.3rem;
+    height: 75px;
+    width: 200px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.projects-button:hover {
+    transform: translate(0px, -8px);
+    transition: .3s ease;
+}
+
+.projects-button:active {
+    background-color: #0091AD;
+    color: white;
+    
+}

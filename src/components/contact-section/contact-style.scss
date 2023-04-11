@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Saira+Condensed:wght@700;800&family=Sarabun:ital,wght@0,200;0,300;0,400;0,800;1,300&display=swap');
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+    //background-color: aqua;
+    width: 50vw;
+}
+
+.contact-title {
+    padding-top: 100px;
+    font-size: 45px;
+    font-weight: 200;
+    font-family: 'Patua One', cursive;
+}
+
+.contact-description {
+    padding: 30px 60px;
+    font-family: 'Sarabun', sans-serif;;
+    text-align: center ;
+    font-size: 1.4rem;
+    font-weight: 300;
+    min-width: 700px;
+}
+
+.contact-line {
+    margin-top: 20px ;
+    margin-left: 100px;
+    width: 50px;
+    border: 2px solid #0091AD;;
+}
+
+.icons-box {
+    display: flex;
+    width: 500px;
+    //background-color: aqua;
+    margin-top: 50px;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.fa-instagram {
+    font-size: 3.5rem;
+    color: #0091AD;
+    transition: .2s;
+}
+
+.fa-instagram:hover {
+    transform: translateY(-20px);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.fa-twitter {
+    font-size: 3.5rem;
+    color: #0091AD;
+    transition: .2s;
+}
+
+.fa-twitter:hover {
+    transform: translateY(-20px);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.git2 {
+    font-size: 3.5rem;
+    color: #0091AD;
+    opacity: 1;
+    padding-right: 0px;
+    transition: .2s;
+}
+
+.git2:hover {
+    transform: translateY(-20px);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.fa-linkedin {
+    font-size: 3.5rem;
+    color: #0091AD;
+    transition: .2s;
+}
+
+.fa-linkedin:hover {
+    transform: translateY(-20px);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.codepen2 {
+    font-size: 3.5rem;
+    color: #0091AD;
+    opacity: 1;
+    transition: .2s;
+}
+
+.codepen2:hover {
+    transform: translateY(-20px);
+    transition: .2s;
+    cursor: pointer;
+}
